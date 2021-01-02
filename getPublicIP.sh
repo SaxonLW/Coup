@@ -2,7 +2,7 @@
 PublicIP=`curl ipinfo.io/ip -s`
 IzzyIP="$PublicIP:25565"
 BoizIP="$PublicIP:25566"
-TimeStamp=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+TimeStamp=`date +%s`
 
 echo "$PublicIP" > Coup.ip
 echo "$IzzyIP" > IzzyMinecraft.ip
