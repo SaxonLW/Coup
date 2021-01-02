@@ -3,12 +3,13 @@ PublicIP=`curl ipinfo.io/ip -s`
 IzzyIP="$PublicIP:25565"
 BoizIP="$PublicIP:25566"
 TimeStamp=`date +%s`
-epochLink="<html><a href=""https://www.epochconverter.com/?q=$TimeStamp"">$TimeStamp</a></html>"
+EpochLink="<html><a href=""https://www.epochconverter.com/?q=$TimeStamp"">$TimeStamp</a></html>"
+READMEmsg="#Coup Public IP List\n[Last Refreshed : $TimeStamp]($EpochLink)"
 
 echo "$PublicIP" > Coup.ip
 echo "$IzzyIP" > IzzyMinecraft.ip
 echo "$BoizIP" > BoizMinecraft.ip
-echo "$epochLink" > LastRunAt.html
+echo "$READMEmsg" > README.md
 
 git add --all
 git commit -m "$PublicIP" --quiet
