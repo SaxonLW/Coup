@@ -8,7 +8,7 @@ epochLink="[html]<a href=""[html]https://www.epochconverter.com/?q=$TimeStamp"">
 echo "$PublicIP" > Coup.ip
 echo "$IzzyIP" > IzzyMinecraft.ip
 echo "$BoizIP" > BoizMinecraft.ip
-echo "epochLink" > LastRunAt.html
+echo "$epochLink" > LastRunAt.html
 
 git add --all
 git commit -m "$PublicIP" --quiet
