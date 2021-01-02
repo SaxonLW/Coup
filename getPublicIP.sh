@@ -3,7 +3,7 @@ PublicIP=`curl ipinfo.io/ip -s`
 IzzyIP="$PublicIP:25565"
 BoizIP="$PublicIP:25566"
 TimeStamp=`date +%s`
-epochLink="[html]<a href=""[html]https://www.epochconverter.com/?q=$TimeStamp"">$TimeStamp</a>"
+epochLink="<html><a href=""https://www.epochconverter.com/?q=$TimeStamp"">$TimeStamp</a></http>"
 
 echo "$PublicIP" > Coup.ip
 echo "$IzzyIP" > IzzyMinecraft.ip
