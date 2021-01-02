@@ -7,7 +7,7 @@ TimeStamp=`date +%s`
 echo "$PublicIP" > Coup.ip
 echo "$IzzyIP" > IzzyMinecraft.ip
 echo "$BoizIP" > BoizMinecraft.ip
-echo "$TimeStamp" > LastRunAt.iso8601
+echo "https://www.epochconverter.com/?q=$TimeStamp" > LastRunAt.epoch
 
 git add --all
 git commit -m "$PublicIP" --quiet
