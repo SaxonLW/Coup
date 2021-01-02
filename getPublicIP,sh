@@ -9,4 +9,4 @@ echo "$IzzyIP" > IzzyMinecraft.ip
 echo "$BoizIP" > BoizMinecraft.ip
 git add --all
 git commit -m "$TimeStamp"
-git push origin master
+git push
