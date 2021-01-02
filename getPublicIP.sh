@@ -1,5 +1,5 @@
 #!/bin/bash
-su PublicIP
+
 cd /home/PublicIP/Coup/
 
 PublicIP=`curl ipinfo.io/ip -s`
