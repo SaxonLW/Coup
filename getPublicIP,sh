@@ -7,6 +7,6 @@ TimeStamp=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 echo "$PublicIP" > CoupIP
 echo "$IzzyIP" > IzzyMinecraft.ip
 echo "$BoizIP" > BoizMinecraft.ip
-git add --all
-git commit -m "$TimeStamp"
-git push
+git add --all > /dev/null
+git commit -m "$TimeStamp > /dev/null"
+git push > /dev/null
