@@ -1,4 +1,7 @@
 #!/bin/bash
+
+cd /home/PublicIP/Coup/
+
 PublicIP=`curl ipinfo.io/ip -s`
 IzzyIP="$PublicIP:25565"
 BoizIP="$PublicIP:25566"
