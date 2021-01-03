@@ -1,2 +1,2 @@
 # Coup Public IP List
-Last Refreshed : 2021-01-04T01:30:04+11:00
+Last Refreshed : 2021-01-04T02:00:06+11:00
